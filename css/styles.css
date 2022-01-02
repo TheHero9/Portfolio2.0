@@ -1,0 +1,56 @@
+body{
+background-color: #5089C6;
+}
+
+/* color-palette
+#B5EAEA
+#7DEDFF */
+
+
+/* First Section with the photo */
+#photo-section{
+
+}
+
+.mainphoto1{
+  max-width: 100%;
+  /* border-radius: 40px 0px; */
+border-left: 12px solid #FFAA4C;
+border-right: 12px solid #FFAA4C;
+border-radius: 18px 18px 0px 0px;
+
+
+}
+
+.container{
+  position: relative;
+  width: 1100px;
+
+
+}
+
+
+.title-text{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+
+}
+
+
+.test8{
+  position: relative;
+}
+
+
+/* NavBAr Section */
+.navbar{
+  background-color: #FFAA4C;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+
+
+/* testings */
