@@ -5,8 +5,12 @@ border-right: 9px solid #FFAA4C;
 }
 
 /* color-palette
-#B5EAEA
-#7DEDFF */
+
+#FABB51 - card headers
+#FFAA4C - border
+#5089C6 - background
+#35589A - second background
+*/
 
 
 /* First Section with the photo */
@@ -41,6 +45,11 @@ border-right: 9px solid #FFAA4C;
 
 .nav-link{
   margin: 0 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #35589A;
+
 }
 
 /* About me section */
@@ -103,5 +112,55 @@ position: relative;
   }
 }
 
+/* Services Section */
 
+#services{
+  background-color: #35589A;
+  padding: 5% 7%;
+  text-align: center;
+  position: relative;
+}
+
+
+.row{
+  position: relative;
+  padding: 4%;
+}
+
+.card{
+  margin: 7%;
+  border: 0px;
+
+
+}
+
+.card-img-top{
+  background-color: #FABB51;
+
+}
+
+.second-image{
+  border-radius: 30px;
+}
+
+.card-body{
+  background-color:#5089C6;
+}
+
+.card-header{
+  background-color: #FFAA4C;
+}
+
+.h3-card{
+  text-decoration: underline;
+}
+
+.btn{
+  font-weight: bold;
+}
+.btn:hover{
+  background-color: #FABB51;
+  color:#5089C6;
+
+}
 /* testings */
