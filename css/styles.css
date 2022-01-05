@@ -2,6 +2,7 @@ body{
 background-color: #5089C6;
 border-left: 9px solid #FFAA4C;
 border-right: 9px solid #FFAA4C;
+border-bottom: 9px solid #FFAA4C;
 }
 
 /* color-palette
@@ -12,11 +13,11 @@ border-right: 9px solid #FFAA4C;
 #35589A - second background
 */
 
+h2,p{
+  font-family: 'Roboto', sans-serif;
+}
 
 /* First Section with the photo */
-#photo-section{
-
-}
 
 .mainphoto1{
   max-width: 100%;
@@ -25,6 +26,12 @@ border-right: 9px solid #FFAA4C;
 .container-photo{
   position: relative;
   width: 100%;
+}
+
+.image-text{
+  color: #344CB7;
+  font-size: 2.7rem;
+text-shadow: 1px 0px 1px #FABB51, 0px 1px 1px #FABB51, 2px 1px 1px #FABB51, 1px 2px 1px #FABB51, 3px 2px 1px #FABB51, 2px 3px 1px #FABB51, 4px 3px 1px #FABB51, 3px 4px 1px #FABB51, 5px 4px 1px #FABB51, 4px 5px 1px #FABB51, 6px 5px 1px #FABB51, 5px 6px 1px #FABB51, 7px 6px 1px #FABB51;
 }
 
 .title-text{
@@ -55,12 +62,25 @@ border-right: 9px solid #FFAA4C;
 /* About me section */
 
 
-h1, h3{
+.first-h1, .first-h3{
   display: inline;
 }
 
-h1{
-  text-decoration: underline;
+.first-h1{
+  font-family: 'Merriweather', serif;
+  /* font-weight: bold; */
+
+
+}
+
+.first-h3{
+  font-family: 'Roboto', sans-serif;
+  padding: 7%;
+
+}
+
+.first-h3:hover{
+  font-weight: bold;
 }
 
 #about-me{
@@ -145,16 +165,25 @@ position: relative;
 
 .card-body{
   background-color:#5089C6;
+  font-size: 1.3rem;
 }
 
 .card-header{
   background-color: #FFAA4C;
 }
 
-.h3-card{
-  text-decoration: underline;
+.h3-card:hover{
+  font-weight: bold;
+  color: #35589A;
+
+
 }
 
+.card-body:hover{
+  font-weight: bold;
+  color: #35589A;
+  font-size: 2.0rem;
+}
 .btn{
   font-weight: bold;
 }
@@ -163,4 +192,29 @@ position: relative;
   color:#5089C6;
 
 }
+
+/* Footer section */
+#footer{
+  text-align: center;
+}
+
+
+.fa-3x{
+  margin-right: 10px;
+}
+
+.footer-link{
+  color: #FABB51;
+  font-size: 2.0rem;;
+  text-decoration: none;
+}
+
+.footer-box{
+  margin-bottom: 20px;
+}
+
+.fa-3x:hover{
+  color: #FFAA4C;
+}
+
 /* testings */
