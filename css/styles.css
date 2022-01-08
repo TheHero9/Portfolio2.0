@@ -64,6 +64,7 @@ text-shadow: 1px 0px 1px #FABB51, 0px 1px 1px #FABB51, 2px 1px 1px #FABB51, 1px 
 
 .first-h1, .first-h3{
   display: inline;
+
 }
 
 .first-h1{
@@ -80,7 +81,7 @@ text-shadow: 1px 0px 1px #FABB51, 0px 1px 1px #FABB51, 2px 1px 1px #FABB51, 1px 
 }
 
 .first-h3:hover{
-  font-weight: bold;
+  font-size: 2.0rem;
 }
 
 #about-me{
@@ -166,6 +167,7 @@ position: relative;
 .card-body{
   background-color:#5089C6;
   font-size: 1.3rem;
+  color: #161E54;
 }
 
 .card-header{
@@ -174,15 +176,19 @@ position: relative;
 
 .h3-card:hover{
   font-weight: bold;
+
   color: #35589A;
+}
 
-
+.price{
+  text-decoration: underline;
+  color: #35589A;
 }
 
 .card-body:hover{
   font-weight: bold;
   color: #35589A;
-  font-size: 2.0rem;
+  font-size: 1.5rem;
 }
 .btn{
   font-weight: bold;
