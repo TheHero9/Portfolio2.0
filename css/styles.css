@@ -6,7 +6,6 @@ border-bottom: 9px solid #FFAA4C;
 }
 
 /* color-palette
-
 #FABB51 - card headers
 #FFAA4C - border
 #5089C6 - background
@@ -31,7 +30,7 @@ h2,p{
 .image-text{
   color: #344CB7;
   font-size: 2.7rem;
-text-shadow: 1px 0px 1px #FABB51, 0px 1px 1px #FABB51, 2px 1px 1px #FABB51, 1px 2px 1px #FABB51, 3px 2px 1px #FABB51, 2px 3px 1px #FABB51, 4px 3px 1px #FABB51, 3px 4px 1px #FABB51, 5px 4px 1px #FABB51, 4px 5px 1px #FABB51, 6px 5px 1px #FABB51, 5px 6px 1px #FABB51, 7px 6px 1px #FABB51;
+  text-shadow: 1px 0px 1px #FABB51, 0px 1px 1px #FABB51, 2px 1px 1px #FABB51, 1px 2px 1px #FABB51, 3px 2px 1px #FABB51, 2px 3px 1px #FABB51, 4px 3px 1px #FABB51, 3px 4px 1px #FABB51, 5px 4px 1px #FABB51, 4px 5px 1px #FABB51, 6px 5px 1px #FABB51, 5px 6px 1px #FABB51, 7px 6px 1px #FABB51;
 }
 
 .title-text{
@@ -56,11 +55,13 @@ text-shadow: 1px 0px 1px #FABB51, 0px 1px 1px #FABB51, 2px 1px 1px #FABB51, 1px 
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #35589A;
-
 }
 
 /* About me section */
-
+#about-me{
+  margin: 10% 0 ;
+padding: 20px 0;
+}
 
 .first-h1, .first-h3{
   display: inline;
@@ -69,31 +70,20 @@ text-shadow: 1px 0px 1px #FABB51, 0px 1px 1px #FABB51, 2px 1px 1px #FABB51, 1px 
 
 .first-h1{
   font-family: 'Merriweather', serif;
-  /* font-weight: bold; */
-
-
 }
 
 .first-h3{
   font-family: 'Roboto', sans-serif;
   padding: 7%;
-
 }
 
 .first-h3:hover{
   font-size: 2.0rem;
 }
 
-#about-me{
-  margin: 10% 0 ;
-padding: 20px 0;
-
-}
-
 .dimi-container{
   margin-bottom: 10%;
 }
-
 
 .dimiphoto{
   width: 20%;
@@ -103,7 +93,6 @@ padding: 20px 0;
   border-bottom: 12px double #FFAA4C;
   border-left:  12px double #FFAA4C;
   border-right: 12px double #FFAA4C;
-
 }
 
 .webphoto{
@@ -120,7 +109,6 @@ padding: 20px 0;
   display: block;
 overflow: hidden;
 position: relative;
-
 }
 
 @media (max-width: 600px){
@@ -134,14 +122,12 @@ position: relative;
 }
 
 /* Services Section */
-
 #services{
   background-color: #35589A;
   padding: 5% 7%;
   text-align: center;
   position: relative;
 }
-
 
 .row{
   position: relative;
@@ -151,13 +137,10 @@ position: relative;
 .card{
   margin: 7%;
   border: 0px;
-
-
 }
 
 .card-img-top{
   background-color: #FABB51;
-
 }
 
 .second-image{
@@ -176,7 +159,6 @@ position: relative;
 
 .h3-card:hover{
   font-weight: bold;
-
   color: #35589A;
 }
 
@@ -190,20 +172,20 @@ position: relative;
   color: #35589A;
   font-size: 1.5rem;
 }
+
 .btn{
   font-weight: bold;
 }
+
 .btn:hover{
   background-color: #FABB51;
   color:#5089C6;
-
 }
 
 /* Footer section */
 #footer{
   text-align: center;
 }
-
 
 .fa-3x{
   margin-right: 10px;
@@ -223,4 +205,4 @@ position: relative;
   color: #FFAA4C;
 }
 
-/* testings */
+/* Тesting */
